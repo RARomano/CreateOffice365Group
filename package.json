@@ -1,0 +1,23 @@
+{
+  "name": "app-only",
+  "version": "1.0.0",
+  "description": "App-only permissions sample app.",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "q": "^1.4.1",
+    "request": "^2.67.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.1",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "start": "mocha ./tests/confTest.js && node app.js",
+    "lint": "eslint ."
+  }
+}
